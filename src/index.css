@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", "Noto Sans SC", system-ui, sans-serif;
+  --font-sans: "DM Sans", "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-canvas: #F6F6F4;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #FAFAF8;
+  --color-border-hairline: #E5E5E0;
+  --color-border-strong: #D4D4CE;
+  --color-ink: #181816;
+  --color-ink-muted: #6B6B66;
+  --color-ink-faint: #9B9B94;
+  --color-accent-forest: #15803D;
+  --color-accent-amber: #B45309;
+  --color-accent-crimson: #B91C1C;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

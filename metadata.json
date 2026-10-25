@@ -1,0 +1,6 @@
+{
+  "name": "衡动工作室 — 智能渐进健身助理",
+  "description": "基于既往健身计划智能生成每日渐进超负荷训练方案，支持逐组负重打卡记录与多维长期力量进步趋势可视化分析。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
